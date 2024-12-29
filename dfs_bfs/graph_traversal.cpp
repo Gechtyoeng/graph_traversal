@@ -82,7 +82,7 @@ int main() {
     g.addEdge(3, 5);
     g.addEdge(4, 5);
 
-    // Perform traversals
+    // Perform dfs and bfs
     g.dfs(0);
     g.bfs(0);
 
